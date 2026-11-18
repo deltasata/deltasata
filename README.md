@@ -2,6 +2,8 @@
 
 Data scientist in Munich with 12+ years of analysing large, noisy datasets and 7+ years of hands-on machine learning on images and time series. I lead the rare-event search in a 10,000-member international collaboration and build its ML and data systems: a real-time pipeline on Google Cloud (~10M events per night), transformer and ConvLSTM models that update their prediction with every new frame, and the image-processing chain that generates their training data.
 
+**Website:** [deltasata.github.io](https://deltasata.github.io): every project, results and CV.
+
 **Personal projects**
 
 | Project | What it does | Stack |
@@ -31,6 +33,6 @@ Data scientist in Munich with 12+ years of analysing large, noisy datasets and 7
 
 **Currently learning:** MLflow · Apache Spark · Google Earth Engine
 
-PhD · 35+ research papers, 30+ peer-reviewed in Q1 journals (some in press); 570+ citations, h-index 14 · [LinkedIn](https://www.linkedin.com/in/satadru-bag) · [Google Scholar](https://scholar.google.com/citations?user=tD5KssAAAAAJ&hl=en)
+PhD · 35+ research papers, 30+ peer-reviewed in Q1 journals (some in press); 570+ citations, h-index 14 · [Website](https://deltasata.github.io) · [LinkedIn](https://www.linkedin.com/in/satadru-bag) · [Google Scholar](https://scholar.google.com/citations?user=tD5KssAAAAAJ&hl=en)
 
 Open to Data Scientist / ML roles in Germany · EU Blue Card holder (Germany) · Available at short notice
