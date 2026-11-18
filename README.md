@@ -8,9 +8,9 @@ Data scientist in Munich with 12 years of analysing large, noisy datasets and 7+
 
 | Project | What it does | Stack |
 |---|---|---|
-| [Real-time event pipeline](https://github.com/deltasata/LSST_alert_pipeline_LSN_search) | Stream and archive pipelines that collect, cross-match and store events from six external data providers (APIs), with a cost-guarded BigQuery layer and offline tests. | Python, Kafka, BigQuery (GCP), Parquet, pytest |
-| [OASIS, transformers for asynchronous image streams](https://github.com/deltasata/OASIS--On-the-fly_ASynchronous_Image-Stream-classification) | Seven attention architectures that score each new frame of an irregular multi-band image sequence; paper on arXiv (2610.17168). | PyTorch, GPU |
-| [Lean image-processing pipeline](https://github.com/deltasata/Stripped_down_LSST_Alert_Production_pipeline) | The production change-detection, object-detection and tracking steps, cut down to generate labelled training data at scale. | Python, Apptainer, CNN scoring |
+| [Real-time event pipeline](https://github.com/deltasata/LSST_alert_pipeline_LSN_search) | Stream and archive pipelines that pull events from six external data providers through REST APIs and Kafka (retries with back-off), cross-match them with a space-time SQL join that runs on both BigQuery and DuckDB, and store them as Parquet; cost-guarded BigQuery layer, typed config, CLI and 400+ automated tests (ruff, mypy). | Python, REST APIs, Kafka (Avro), SQL (BigQuery, DuckDB), Google Cloud Storage, Parquet, pytest |
+| [OASIS, transformers for asynchronous image streams](https://github.com/deltasata/OASIS--On-the-fly_ASynchronous_Image-Stream-classification) | Seven transformer architectures that score each new frame of an irregular multi-band image sequence: factorized vs joint space-time attention, windowed and pyramid variants and a Perceiver-style latent readout, with Time2Vec time embeddings and causal masking; evaluated at the real 8.5% positive rate; paper on arXiv (2610.17168). | PyTorch, transformers, GPU |
+| [Lean image-processing pipeline](https://github.com/deltasata/Stripped_down_LSST_Alert_Production_pipeline) | The production pipeline's PSF-matched image differencing (change detection), object detection and measurement, and cross-frame association (tracking), run on small simulated cutouts to generate labelled training data at scale; every detection scored by two CNN quality models, with documented checks against production behaviour. | Python, PyTorch, NumPy / SciPy, Apptainer |
 
 **Earlier work**
 
@@ -20,7 +20,7 @@ Data scientist in Munich with 12 years of analysing large, noisy datasets and 7+
 | [SURFGEN2 / Shapefinders](https://github.com/deltasata/Shapefinders) | 3D surface reconstruction and shape statistics on large 3D grids, used by several research groups. | C, OpenMP |
 | [Overlapping-signal 1D CNN](https://github.com/deltasata/Unresolved_LSNeIa_in_LSST) | Simulated overlapping-signal time series and a 1D CNN that detects them; data on Zenodo. | Python, TensorFlow, emcee |
 
-**Stack:** Python · PyTorch · TensorFlow / Keras · SQL (BigQuery) · Google Cloud · AWS · Kafka · Docker / Apptainer · HPC (SLURM, GPUs)
+**Stack:** Python · PyTorch · TensorFlow / Keras · SQL (BigQuery, DuckDB) · REST APIs · Google Cloud · AWS · Kafka · Docker / Apptainer · HPC (SLURM, GPUs) · Testing (pytest, ruff, mypy)
 
 **Also:** Generative models (diffusion, normalizing flows) · Simulation-based inference · Graph neural networks · LLM agents (MCP, LangGraph) · Bayesian inference
 
