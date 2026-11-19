@@ -24,6 +24,12 @@ Data scientist in Munich with 12+ years of analysing large, noisy datasets and 7
 |---|---|---|
 | [Self-supervised ViTs for rare-object detection](https://github.com/deltasata/self-supervised-vit-lsst-lenses) | Finds rare objects (1 in thousands) in 5-band survey images. Automated model search (~60 architectures, ~300 GPU runs) with pre-registered comparisons; in-domain masked-autoencoder pretraining halved the loss; a ViT + ConvNeXtV2 ensemble reached AUC 0.9998 on a locked 30,000-object holdout, finding 90.6% at a 0.1% false-positive rate. | PyTorch, ViT, ConvNeXtV2, MAE, AMD MI300A |
 
+**New statistical methods**
+
+| Project | What it does | Stack |
+|---|---|---|
+| [Hidden echoes, a model-free statistic](https://github.com/deltasata/hidden-echo) | When a random signal overlaps with its own delayed copy, the data allow infinitely many exact ways to split them, and since 1996 the delay was thought impossible to find without a model of the signal. I showed that every wrong split comes out rougher, turned that into a new statistic, and proved why it works: it is driven by the autocorrelation of the signal's derivative, plus higher-order terms that sharpen the answer. No template, no prior, no training data. It finds hidden gravitationally lensed quasars in data too blurred to separate them: 92% precision at survey-grade noise (53% for the standard autocorrelation), confirmed on real telescope data. [ApJ 927, 191 (2022): the method](https://arxiv.org/abs/2110.15315). [ApJ 950, 158 (2023): the proof](https://arxiv.org/abs/2209.11078). | Time-series statistics, Autocorrelation, Spectral analysis, Inverse filtering, Blind validation |
+
 **Earlier work**
 
 | Project | What it does | Stack |
@@ -31,10 +37,6 @@ Data scientist in Munich with 12+ years of analysing large, noisy datasets and 7
 | [ConvLSTM rare-event detector](https://github.com/deltasata/ConvLSTM-LSNe-Detection) | Spatio-temporal classifier for multi-band image time series that rescores every new frame: 70%+ recall at a 0.01% false-positive rate by frame 9 (128,000 training sequences). Papers: [A&A 707, A123 (2026), arXiv:2506.22076](https://arxiv.org/abs/2506.22076). [Part II, A&A in press, arXiv:2605.05318](https://arxiv.org/abs/2605.05318). | TensorFlow / Keras |
 | [SURFGEN2 / Shapefinders](https://github.com/deltasata/Shapefinders) | 3D surface reconstruction and shape statistics on large 3D grids, used by several research groups. | C, MPI |
 | [Overlapping-signal 1D CNN](https://github.com/deltasata/Unresolved_LSNeIa_in_LSST) | Simulated overlapping-signal time series and a 1D CNN that detects them; data on Zenodo. | Python, TensorFlow, emcee |
-
-**New statistical methods (papers)**
-
-- **Hidden echoes, a model-free statistic.** When a random signal overlaps with its own delayed copy, the data allow infinitely many exact ways to split them, and since 1996 the delay was thought impossible to find without a model of the signal. I showed that every wrong split comes out rougher, turned that into a new statistic, and proved why it works: it is driven by the autocorrelation of the signal's derivative, plus higher-order terms that sharpen the answer. [ApJ 927, 191 (2022): the method](https://arxiv.org/abs/2110.15315) · [ApJ 950, 158 (2023): the proof](https://arxiv.org/abs/2209.11078)
 
 **Stack:** Python · PyTorch · TensorFlow / Keras · SQL (BigQuery, DuckDB) · REST APIs · Google Cloud · AWS · Kafka · Docker / Apptainer · HPC (SLURM, CUDA / ROCm) · Testing (pytest, ruff, mypy)
 
