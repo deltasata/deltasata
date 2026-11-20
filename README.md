@@ -8,7 +8,7 @@ Data scientist in Munich with 12+ years of analysing large, noisy datasets and 7
 
 | Project | What it does | Stack |
 |---|---|---|
-| [EO-Agent, conversational Earth-observation analyst](https://github.com/deltasata/satellite-change-agent) | LLM agent that answers "was this place flooded / built on?" from free satellite images, every number checked against deterministic code. Learned models replace rules only if they win on held-out flood events (pre-registered): water IoU 0.833 vs 0.690 (U-Net), flood questions answered correctly 0.889 vs 0.722; on par with the published state of the art. | PyTorch, TerraMind, Prithvi-EO, MCP, LangGraph, vLLM |
+| [EO-Agent, conversational Earth-observation analyst](https://github.com/deltasata/satellite-change-agent) | LLM agent that answers "was this place flooded / built on?" from free satellite images, every number checked against deterministic code. Learned models replace rules only if they win on held-out flood events (pre-registered): water IoU 0.833 vs 0.690 (U-Net), flood questions answered correctly 0.889 vs 0.722; on par with the published state of the art. | PyTorch, TerraMind, Prithvi-EO, Claude Agent SDK, MCP, LangGraph, vLLM |
 
 **Built for the rare-event search I lead**
 
@@ -40,7 +40,7 @@ Data scientist in Munich with 12+ years of analysing large, noisy datasets and 7
 
 **Stack:** Python · PyTorch · TensorFlow / Keras · SQL (BigQuery, DuckDB) · REST APIs · Google Cloud · AWS · Kafka · Docker / Apptainer · HPC (SLURM, CUDA / ROCm) · Testing (pytest, ruff, mypy)
 
-**Also:** Generative models (diffusion, normalizing flows) · Simulation-based inference · Graph neural networks · LLM agents (MCP, LangGraph) · Bayesian inference
+**Also:** Generative models (diffusion, normalizing flows) · Simulation-based inference · Graph neural networks · LLM agents (MCP, LangGraph, Claude Agent SDK, OpenAI Agents SDK) · Bayesian inference
 
 **Currently learning:** MLflow · Apache Spark · Google Earth Engine
 
