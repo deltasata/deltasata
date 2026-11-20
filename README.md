@@ -29,6 +29,7 @@ Data scientist in Munich with 12+ years of analysing large, noisy datasets and 7
 | Project | What it does | Stack |
 |---|---|---|
 | [Hidden echoes, a model-free statistic](https://github.com/deltasata/hidden-echo) | A random signal overlapping with its own delayed copy admits infinitely many exact splits; since 1996 the delay was thought impossible to find without a model of the signal. Every wrong split comes out rougher: that became a new statistic, with a proof of why it works. 92% precision under survey-grade noise, against 53% for autocorrelation. [ApJ 927, 191 (2022): method](https://arxiv.org/abs/2110.15315). [ApJ 950, 158 (2023): proof](https://arxiv.org/abs/2209.11078). | Time-series statistics, Blind validation |
+| [Unresolved lensed supernovae, found from one blended light curve](https://github.com/deltasata/Unresolved_LSNeIa_in_LSST) | When the copies of a lensed supernova are too close to separate, a survey sees one blended light curve, and most lensed supernovae will look like that. Six years of work: recognising them from the curve's shape with methods that need hardly any template (under 5% false positives, under 0.5% delay bias), then a 1D CNN that flags them within about 20 days, and an LSTM (unpublished). Papers: [ApJ 910, 65 (2021)](https://arxiv.org/abs/2010.03774). [MNRAS 511 (2022)](https://arxiv.org/abs/2109.13282). [A&A 691, A100 (2024)](https://arxiv.org/abs/2404.15389). | Time-series statistics, Polynomial expansions, Microlensing models, 1D CNN, LSTM |
 
 **Earlier work**
 
@@ -36,7 +37,12 @@ Data scientist in Munich with 12+ years of analysing large, noisy datasets and 7
 |---|---|---|
 | [ConvLSTM rare-event detector](https://github.com/deltasata/ConvLSTM-LSNe-Detection) | Spatio-temporal classifier for multi-band image time series that rescores every new frame: 70%+ recall at a 0.01% false-positive rate by the 9th image (128,000 training sequences). Papers: [A&A 707, A123 (2026), arXiv:2506.22076](https://arxiv.org/abs/2506.22076). [Part II, A&A in press, arXiv:2605.05318](https://arxiv.org/abs/2605.05318). | TensorFlow / Keras |
 | [SURFGEN2 / Shapefinders](https://github.com/deltasata/Shapefinders) | 3D surface reconstruction and shape statistics on large 3D grids, used by several research groups. | C, MPI |
-| [Overlapping-signal simulations](https://github.com/deltasata/Unresolved_LSNeIa_in_LSST) | Simulates overlapping-signal time series and their population statistics, the training data for the 1D-CNN detector of the paper (arXiv:2404.15389); data on Zenodo. | Python, NumPy, Monte Carlo simulation, Jupyter |
+
+**Theory and mathematics (papers)**
+
+| Project | What it does | Stack |
+|---|---|---|
+| Theory, dark energy and the expansion of the universe | Where the data work started: why the universe's expansion speeds up. Perturbation equations solved from the early universe to today, an analytic growth formula accurate to 0.1%, a stability analysis, a dark-energy model family free of fine-tuning, fits to survey data, and a diagnostic (2026) that avoids differentiating noisy data. 8 papers, 2014 – 2026. Papers: [JCAP 2014](https://arxiv.org/abs/1403.4243). [JCAP 2016](https://arxiv.org/abs/1603.01277). [JCAP 2018](https://arxiv.org/abs/1709.09193). [Phys. Rev. D 2018](https://arxiv.org/abs/1805.10405). [arXiv 2026](https://arxiv.org/abs/2605.27230). | Differential equations, Perturbation theory, Numerical methods, Bayesian inference |
 
 **Stack:** Python · PyTorch · TensorFlow / Keras · SQL (BigQuery, DuckDB) · REST APIs · Google Cloud · AWS · Kafka · Docker / Apptainer · HPC (SLURM, CUDA / ROCm) · Testing (pytest, ruff, mypy)
 
