@@ -8,7 +8,7 @@ Data scientist in Munich with 12+ years of analysing large, noisy datasets and 7
 
 | Project | What it does | Stack |
 |---|---|---|
-| [EO-Agent, conversational Earth-observation analyst](https://github.com/deltasata/satellite-change-agent) | LLM agent that answers "was this place flooded / built on?" from free satellite images, every number checked against deterministic code. Learned models replace rules only if they win on held-out flood events (pre-registered): water IoU 0.833 vs 0.690 (U-Net), flood questions answered correctly 0.889 vs 0.722; on par with the published state of the art. | PyTorch, TerraMind, Prithvi-EO, Claude Agent SDK, MCP, LangGraph, vLLM |
+| [EO-Agent, conversational Earth-observation analyst](https://github.com/deltasata/satellite-change-agent) | LLM agent that answers "was this place flooded, burnt or built on?" from free satellite images, every number checked against deterministic code. Each learned model replaced a rule only after winning on events or places it never saw, under a protocol fixed before scoring: water IoU 0.833 vs 0.690, cloud 0.885 vs 0.644, construction 0.301 vs 0.188, burnt land 0.772 vs 0.560; 150-question benchmark 0.853 to 0.887. On the published flood benchmark, on par with the state of the art. | PyTorch, TerraMind, Prithvi-EO, Claude Agent SDK, MCP, LangGraph, vLLM |
 
 **Built for the rare-event search I lead**
 
