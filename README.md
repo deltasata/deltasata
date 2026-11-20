@@ -36,7 +36,7 @@ Data scientist in Munich with 12+ years of analysing large, noisy datasets and 7
 | Project | What it does | Stack |
 |---|---|---|
 | [ConvLSTM rare-event detector](https://github.com/deltasata/ConvLSTM-LSNe-Detection) | Spatio-temporal classifier for multi-band image time series that rescores every new frame: 70%+ recall at a 0.01% false-positive rate by the 9th image (128,000 training sequences). Papers: [A&A 707, A123 (2026), arXiv:2506.22076](https://arxiv.org/abs/2506.22076). [Part II, A&A in press, arXiv:2605.05318](https://arxiv.org/abs/2605.05318). | TensorFlow / Keras |
-| [SURFGEN2 / Shapefinders](https://github.com/deltasata/Shapefinders) | 3D surface reconstruction and shape statistics on large 3D grids, used by several research groups. | C, MPI |
+| [SURFGEN2 / Shapefinders](https://github.com/deltasata/Shapefinders) | Shape, topology and percolation of structures in large 3D grids (Marching Cubes 33, Minkowski functionals, Shapefinders); used by several research groups and behind 10 papers on the geometry and topology of 3D fields (2018 – 2026). Papers: [MNRAS 477 (2018)](https://arxiv.org/abs/1801.01116). [MNRAS 485 (2019)](https://arxiv.org/abs/1809.05520). [JCAP 2022](https://arxiv.org/abs/2202.03701). [MNRAS 530 (2024)](https://arxiv.org/abs/2308.00548). | C, MPI |
 
 **Theory and mathematics (papers)**
 
