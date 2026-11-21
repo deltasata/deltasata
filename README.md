@@ -44,7 +44,7 @@ Data scientist in Munich with 12+ years of analysing large, noisy datasets and 7
 |---|---|---|
 | Theory, dark energy and the expansion of the universe | Where the data work started: why the universe's expansion speeds up. Perturbation equations solved from the early universe to today, an analytic growth formula accurate to 0.1%, a stability analysis, a dark-energy model family free of fine-tuning, fits to survey data, and a diagnostic (2026) that avoids differentiating noisy data. 8 papers, 2014 – 2026. Papers: [JCAP 2014](https://arxiv.org/abs/1403.4243). [JCAP 2016](https://arxiv.org/abs/1603.01277). [JCAP 2018](https://arxiv.org/abs/1709.09193). [Phys. Rev. D 2018](https://arxiv.org/abs/1805.10405). [arXiv 2026](https://arxiv.org/abs/2605.27230). | Differential equations, Perturbation theory, Numerical methods, Bayesian inference |
 
-**Stack:** Python · PyTorch · TensorFlow / Keras · SQL (BigQuery, DuckDB) · REST APIs · Google Cloud · AWS · Kafka · Docker / Apptainer · HPC (SLURM, CUDA / ROCm) · Testing (pytest, ruff, mypy)
+**Stack:** Python · PyTorch · TensorFlow / Keras · SQL (BigQuery, DuckDB) · REST APIs · Google Cloud · AWS · Kafka · Docker / Apptainer · HPC (SLURM, CUDA/ROCm, NVIDIA A100) · Testing (pytest, ruff, mypy)
 
 **Also:** Generative models (diffusion, normalizing flows) · Simulation-based inference · Graph neural networks · LLM agents (MCP, LangGraph, Claude Agent SDK, OpenAI Agents SDK) · Bayesian inference
 
