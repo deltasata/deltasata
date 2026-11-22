@@ -1,6 +1,6 @@
 ## Satadru Bag
 
-Data scientist in Munich with 12+ years of analysing large, noisy datasets and 7+ years of hands-on machine learning on images and time series. I lead the rare-event search in a 10,000-member international collaboration and build its ML and data systems: a real-time pipeline on Google Cloud built for ~10M events a night, transformer and ConvLSTM models that update their prediction with every new frame, and the image-processing chain that generates their training data. I also build agentic AI workflows for research that run large model searches under strict, pre-registered quality checks.
+Data scientist in Munich with 12+ years of analysing large, noisy datasets and 7+ years of hands-on machine learning on images and time series. I lead one of the rare-event searches in a 10,000-member international collaboration and build its ML and data systems: a real-time pipeline on Google Cloud built for ~10M events a night, transformer and ConvLSTM models that update their prediction with every new frame, and the image-processing chain that generates their training data. I also build agentic AI workflows for research that run large model searches under strict, pre-registered quality checks.
 
 **Website:** [deltasata.github.io](https://deltasata.github.io): every project, results and CV.
 
