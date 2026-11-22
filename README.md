@@ -50,6 +50,6 @@ Data scientist in Munich with 12+ years of analysing large, noisy datasets and 7
 
 **Currently learning:** MLflow · Apache Spark · Google Earth Engine
 
-PhD · 35+ research papers, 30+ peer-reviewed in Q1 journals (some in press) · [Website](https://deltasata.github.io) · [LinkedIn](https://www.linkedin.com/in/satadru-bag) · [Google Scholar](https://scholar.google.com/citations?user=tD5KssAAAAAJ&hl=en)
+PhD · 35+ research papers, 30+ peer-reviewed in Q1 journals · [Website](https://deltasata.github.io) · [LinkedIn](https://www.linkedin.com/in/satadru-bag) · [Google Scholar](https://scholar.google.com/citations?user=tD5KssAAAAAJ&hl=en)
 
 Open to Data Scientist / ML roles in Germany · EU Blue Card holder (Germany) · Available at short notice
